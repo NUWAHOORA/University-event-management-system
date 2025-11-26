@@ -19,6 +19,7 @@ const App = () => (
       <BrowserRouter basename="/University-event-management-system">
         <Routes>
           <Route path="/" element={<Auth />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/staff" element={<StaffDashboard />} />
           <Route path="/student" element={<StudentDashboard />} />
